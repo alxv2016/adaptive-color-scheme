@@ -1,27 +1,19 @@
-# AngularStarter
+# Adaptive color scheme with HSL and CSS variables
+This project was created to demonstrate the ability to create adaptive color schemes using modern CSS features and HSL color space. Using SCSS along native CSS variables and user preference media feature, prefers-color-scheme to manage multiple color schemes and create a dynamic experience.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.4.
+## Demo
+You can view the demo here:
+[Adaptive color schemes](https://colors.alxv.dev/)
 
-## Development server
+## Take aways
+1. Learn how to use SCSS along side CSS variables
+2. Using CSS Variables and HSL along with user preference media queries to create adaptive color schemes detecting user's system preferences
+3. project was base on the article by Adam Argyle's [Building a color scheme](https://web.dev/articles/building/a-color-scheme)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Dev and Build scripts
+```
+npm run serve
+```
+```
+npm run build
+```
